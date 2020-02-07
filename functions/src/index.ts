@@ -1,11 +1,13 @@
 import * as functions from "firebase-functions";
 import * as admin from "firebase-admin";
-const serviceAccount = require("../../servesmart-45ed1-firebase-adminsdk-ntq8c-1aac0e39ab.json");
+// const serviceAccount = require("../../servesmart-45ed1-firebase-adminsdk-ntq8c-1aac0e39ab.json");
 
-admin.initializeApp({
-  credential: admin.credential.cert(serviceAccount),
-  databaseURL: "https://servesmart-45ed1.firebaseio.com"
-});
+// admin.initializeApp({
+//   credential: admin.credential.cert(serviceAccount),
+//   databaseURL: "https://servesmart-45ed1.firebaseio.com"
+// });
+
+admin.initializeApp();
 
 // Start writing Firebase Functions
 // https://firebase.google.com/docs/functions/typescript

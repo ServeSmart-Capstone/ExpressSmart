@@ -101,6 +101,28 @@ npm run test:debug
   curl http://localhost:3000/api/v1/examples
   ```
 
+## Firebase Serve
+#### using firebase
+```
+firebase login
+```
+
+```
+cd functions
+```
+
+```
+npm run build
+```
+
+```
+firebase serve
+```
+
+```
+firebase deploy
+```
+
 
 ## Debug It
 
